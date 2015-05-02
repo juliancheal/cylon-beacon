@@ -3,32 +3,25 @@
   "version": "0.1.0",
   "main": "lib/cylon-beacon.js",
   "description": "Cylon module for Beacon",
-
   "homepage": "http://cylonjs.com",
-  "bugs": "Your bug report URL here",
-
+  "bugs": "https://github.com/juliancheal/cylon-beacon",
   "author": "Your Name Here <your@email.here> (your.url.here)",
-
   "repository": {
     "type": "git",
     "url": "your git URL here"
   },
-
   "license": "your license type here",
-
   "devDependencies": {
     "sinon-chai": "2.6.0",
-    "chai":       "1.9.2",
-    "mocha":      "1.21.5",
-    "sinon":      "1.10.3"
+    "chai": "1.9.2",
+    "mocha": "1.21.5",
+    "sinon": "1.10.3"
   },
-
   "peerDependencies": {
     "cylon": ">=0.22.0 < 1"
   },
-
   "dependencies": {
-    "cylon": "~0.22.0",
-    "bleacon": "0.2.1"
+    "bleacon": "^0.2.1",
+    "cylon": "^0.22.1"
   }
 }
