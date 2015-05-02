@@ -3,7 +3,7 @@
 Cylon.js (http://cylonjs.com) is a JavaScript framework for robotics and
 physical computing using Node.js
 
-This repository contains the Cylon adaptor for Beacon.
+This repository contains the Cylon BLE adaptor for Beacons.
 
 For more information about Cylon, check out the repo at
 https://github.com/hybridgroup/cylon
@@ -48,13 +48,7 @@ Cylon.robot({
 
 ```
 
-Explain how to connect from the computer to the device here...
-
 ## Documentation
-
-We're busy adding documentation to our web site at http://cylonjs.com/ please check there as we continue to work on Cylon.js
-
-Thank you!
 
 ## Contributing
 
@@ -75,4 +69,4 @@ None yet...
 
 ## License
 
-Copyright (c) 2014 Your Name Here. See `LICENSE` for more details
+Copyright (c) 2015 Julian Cheal. See `LICENSE` for more details
