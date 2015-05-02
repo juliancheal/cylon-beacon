@@ -19,16 +19,33 @@ Install the module with:
 ## How to Connect
 
 ```javascript
-var Cylon = require('cylon');
+"use strict";
+
+var Cylon = require("cylon");
 
 Cylon.robot({
-  connection: { name: 'beacon', adaptor: 'beacon' },
-  device: {name: 'beacon', driver: 'beacon'},
+  connections: {
+    beacon: { adaptor: "beacon", module: "cylon-beacon" }
+  },
+
+  devices: {
+    ibeacon: { driver: "ble-ibeacon" }
+  },
 
   work: function(my) {
-    // provide an example of your module here
+    my.beacon.startScanning();
+
+    my.ibeacon.getAdvertisement(function(err, data) {
+      if (!!err) {
+        console.log("error: ", err);
+        return;
+      }
+
+      console.log("data: ", data);
+    });
   }
 }).start();
+
 ```
 
 Explain how to connect from the computer to the device here...
