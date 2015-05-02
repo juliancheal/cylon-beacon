@@ -18,7 +18,7 @@
     "sinon": "1.10.3"
   },
   "peerDependencies": {
-    "cylon": ">=0.22.0 < 1"
+    "cylon": "^1.0.0"
   },
   "dependencies": {
     "bleacon": "^0.2.1",
